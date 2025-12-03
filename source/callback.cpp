@@ -73,15 +73,15 @@ void keyboard(unsigned char input, int mouse_x, int mouse_y)
 	}
 	else if (input == '5') // increase shininess (light reflects specularly)
 	{
-		shininess -= 2.0f;
-		shininess = std::max(shininess, 1.0f);
+		shininess += 2.0f;
+		shininess = std::min(shininess, 400.0f);
 		std::cout << "shininess: " << shininess << std::endl;
 		glutPostRedisplay();
 	}
 	else if (input == '6') // decrease shininess (light reflects diffusely)
 	{
-		shininess += 2.0f;
-		shininess = std::min(shininess, 400.0f);
+		shininess -= 2.0f;
+		shininess = std::max(shininess, 1.0f);
 		std::cout << "shininess: " << shininess << std::endl;
 		glutPostRedisplay();
 	}
@@ -150,4 +150,5 @@ void reshape(int w, int h)
 
 	g_aspect = w / float(h);
 	glutPostRedisplay();
+
 }
