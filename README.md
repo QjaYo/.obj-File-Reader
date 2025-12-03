@@ -1,1 +1,26 @@
 # .obj-File-Reader
+
+[ .obj File Reader Manual ]
+
+- 'Spacebar': Start/Stop rotation object
+  - Left Mouse Button: rotate around x-axis
+  - Middle Mouse Button: rotate around y-axis
+  - Right Mouse Button: rotate around z-axis
+
+- `1' key: Use Vertex Normal for shading
+- `2' key: Use Surface Normal for shading
+- `3' key: Increase specular light intensity (ks)
+- `4' key: Decrease specular light intensity (ks)
+- `5' key: Increase shininess (light reflects specularly) (n)
+- `6' key: Decrease shininess (light reflects diffusely) (n)
+- '7' key: Increase ambient light intensity
+- '8' key: Decrease ambient light intensity
+- '9' key: Increase diffuse rate
+- '0' key: Decrease diffuse rate
+
+- 'A' key: Show/Hide Object Axis
+- 'I' key: Zoom in
+- 'O' key: Zoom out
+- 'R' key: Start/Stop lightsource rotation (around rotation y axis: y)
+
+- `Q' Key: Exit the program.
