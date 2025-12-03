@@ -6,7 +6,7 @@
 - Right Mouse Button: rotate around z-axis
 
 `1' key: Use Vertex Normal for shading
-`2' key: Use Surface Normal for shading
+`2' key: Use Facce Normal for shading
 `3' key: Increase specular light intensity (ks)
 `4' key: Decrease specular light intensity (ks)
 `5' key: Increase shininess (light reflects specularly) (n)
@@ -20,5 +20,6 @@
 'I' key: Zoom in
 'O' key: Zoom out
 'R' key: Start/Stop lightsource rotation (around rotation y axis: y)
+
 
 `Q' Key: Exit the program.
