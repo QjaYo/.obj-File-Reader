@@ -13,7 +13,7 @@
   <img width="200" alt="Image" src="https://github.com/user-attachments/assets/fddf6d53-31cc-4201-b680-a60c4e1f83bb" />
 
 - `1' key: Use Vertex Normal for shading
-- `2' key: Use Surface Normal for shading
+- `2' key: Use Face Normal for shading
 
   <img width="200" alt="VertexNormal" src="https://github.com/user-attachments/assets/7c58b1ba-0406-49cb-995a-24f4c06afa52" />
   <img width="200" alt="FaceNormal" src="https://github.com/user-attachments/assets/351973cc-c5e4-4881-b6fb-a45441f9c07e" />
